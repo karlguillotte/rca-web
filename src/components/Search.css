@@ -1,0 +1,13 @@
+.Search {
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+}
+
+.Search > input {
+    flex: 1;
+}
+
+.Search > button {
+    margin-left: 0.5em;
+}

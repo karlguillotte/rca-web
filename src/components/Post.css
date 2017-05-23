@@ -1,0 +1,24 @@
+.Post {
+    margin: 2em 0;
+}
+
+.Post .more-link {
+    display: none;
+}
+
+.Post--Date {
+    text-transform: uppercase;
+    color: rgb(150, 150, 150);
+    font-weight: 300;
+}
+
+.Post--Title {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Post--Title > small {
+    color: rgb(150, 150, 150);
+    font-weight: 300;
+}

@@ -1,0 +1,50 @@
+.Page {
+    margin-top: 75px;
+}
+
+.Page--Header {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/SSP_MARTHACREEKMTB_20160804_0024-Edit.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    padding: 1em;
+    color: white;
+    font-size: 125%;
+}
+
+.Page--Header--Content {
+    width: 1026px;
+    margin: 0 auto;
+}
+
+.Page--Content {
+    max-width: 1026px;
+    margin: 0 auto;
+}
+
+.Page-MainHeader {
+    position: relative;
+    height: calc(100vh - 75px);
+    height: auto;
+}
+
+.Page-MainHeader h1 {
+    position: absolute;
+    margin: 0 1em;
+    z-index: 10;
+    bottom: 2em;
+    color: white;
+}
+
+.Page-MainHeader small {
+    display: block;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.Page--Section {
+    margin: 1em 0;
+}

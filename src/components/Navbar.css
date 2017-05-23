@@ -1,0 +1,43 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 75px;
+    box-sizing: border-box;
+    padding: 0.5em;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(200, 200, 200, 0.5);
+}
+
+.Navbar--Content {
+    display: flex;
+    align-items: center;
+    max-width: 1026px;
+    margin: auto;
+}
+
+.Navbar--Logo {
+    height: 3em;
+    width: auto;
+}
+
+.Navbar-Menus a:hover {
+    text-decoration: none;
+}
+
+.Navbar-Menus ul {
+    list-style: none;
+    display: flex;
+}
+
+.Navbar-Menus ul > li {
+    margin: 0.5em;
+}
+
+.Navbar-Menus {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
